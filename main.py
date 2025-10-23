@@ -1,6 +1,6 @@
+from view import mostrar
 def main():
-    print("Hello from my-project!")
-
+    mostrar()
 
 if __name__ == "__main__":
     main()
