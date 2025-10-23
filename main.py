@@ -1,6 +1,4 @@
-from view import mostrar
-def main():
-    mostrar()
+from view import main
 
 if __name__ == "__main__":
     main()
