@@ -8,3 +8,5 @@ wheels/
 
 # Virtual environments
 .venv
+
+/Project_Structure_Tutorial.md

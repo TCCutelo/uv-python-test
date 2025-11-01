@@ -1,14 +1,14 @@
 # uv-python-test
 
-Projeto de estudo em **Python 3.12** usando **uv**
+Projeto de estudo em **Python 3.12** utilizando **uv** e estrutura **MVC** simples (main → view).
 
 ## Requisitos
-- Python 3.12 (o projeto está fixo para esta versão)
+- Python **3.12**
 - [uv](https://docs.astral.sh/uv/) instalado
 
-## Como correr
+## Instalação
 ```bash
-uv sync                 # instala dependências a partir do lock/pyproject
-uv run python main.py   # executa a aplicação
-# (se tiveres app Streamlit)
-# uv run streamlit run app_streamlit.py
+uv sync                  # instala dependências do pyproject/uv.lock
+# Se ainda não adicionaste as libs:
+# uv add streamlit
+# uv add pandas          # só se fores trabalhar com CSVs/dados

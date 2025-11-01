@@ -15,7 +15,7 @@ class AgeClassifier:
             age: Age to classify
             
         Returns:
-            Dictionary with category and emoji
+            Dictionary with category and emoji (to choose the emoji: win + .)
         """
         if age < 13:
             return {"category": "Child", "emoji": "👶", "color": "success"}
